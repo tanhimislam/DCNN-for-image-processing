@@ -31,7 +31,6 @@ from keras.layers.normalization import BatchNormalization
 from keras.utils import to_categorical
 
 from google.colab import files
-
 uploaded = files.upload()
 
 for fn in uploaded.keys():
